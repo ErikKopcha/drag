@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main__wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.main__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 97, 255);
+}
+
+.selected {
+  opacity: 0.6;
+}
